@@ -230,6 +230,12 @@ section.icharge-plan {
 	width: 100%;
 }
 
+.vh {
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+
 
 .icharge-plan__video-wr {
 	display: flex;
