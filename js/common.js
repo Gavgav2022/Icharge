@@ -21,7 +21,7 @@ document.addEventListener('scroll', () => {
 function changeFrame(scrollY) {
 	let frame = parseInt(scrollY / (scrollingHeight / framesCount) + 1)
 	frame = frame > framesCount ? framesCount : frame
-	$img.setAttribute('src', imgSource + frame + '.webp')
+	$img.setAttribute('src', imgSource + frame + '.png')
 }
 
 // Scroll картинок;
